@@ -6,7 +6,6 @@ import { gK, strings } from "../../utils/strings-english";
 
 function App() {
   const { isLoading, products } = useApp();
-  console.log(products);
   if (isLoading) return <LoadingAnimation />;
 
   return (
